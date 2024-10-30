@@ -1,0 +1,23 @@
+server:
+  port: 9600
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/java-demo-learn?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    type: com.mysql.cj.jdbc.MysqlConnectionPoolDataSource
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+
+knife4j:
+  enable: true
+  openapi:
+    title: "接口文档"
+    version: 1.0
+    group:
+      default:
+        api-rule: package
+        api-rule-resources:
+          - com.ling.exportexcelfile.controller
