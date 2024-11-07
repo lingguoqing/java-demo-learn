@@ -6,10 +6,9 @@
         <artifactId>ling-rpc</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>explame-provider</artifactId>
-    <name>explame-provider Maven Webapp</name>
+    <artifactId>example-consumer</artifactId>
+    <name>explame-consumer Maven Webapp</name>
     <url>http://maven.apache.org</url>
-
     <dependencies>
         <dependency>
             <groupId>com.ling</groupId>
@@ -18,7 +17,7 @@
         </dependency>
         <dependency>
             <groupId>com.ling</groupId>
-            <artifactId>explame-common</artifactId>
+            <artifactId>example-common</artifactId>
             <version>1.0.0</version>
         </dependency>
         <!-- https://doc.hutool.cn/ -->
@@ -37,6 +36,6 @@
     </dependencies>
 
     <build>
-        <finalName>explame-provider</finalName>
+        <finalName>explame-consumer</finalName>
     </build>
 </project>

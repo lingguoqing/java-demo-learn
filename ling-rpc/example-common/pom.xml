@@ -6,7 +6,7 @@
         <artifactId>ling-rpc</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>explame-common</artifactId>
+    <artifactId>example-common</artifactId>
     <name>explame-common Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>

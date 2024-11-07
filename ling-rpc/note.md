@@ -1,4 +1,4 @@
-- explame-common: 示例代码的公共依赖、包括接口、、model等
+- explame-common: 示例代码的公共依赖、包括接口、model等
 - explame-consumer： 示例服务消费者代码
 - explame-provider： 示例服务提供者代码
 - ling-rpc-easy: 简易版RPC框架

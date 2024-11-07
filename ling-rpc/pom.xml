@@ -5,9 +5,9 @@
   <artifactId>ling-rpc</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>explame-common</module>
-    <module>explame-consumer</module>
-    <module>explame-provider</module>
+    <module>example-common</module>
+    <module>example-consumer</module>
+    <module>example-provider</module>
     <module>ling-rpc-easy</module>
   </modules>
   <version>1.0.0</version>
