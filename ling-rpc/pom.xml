@@ -9,6 +9,7 @@
     <module>example-consumer</module>
     <module>example-provider</module>
     <module>ling-rpc-easy</module>
+    <module>ling-rpc-core</module>
   </modules>
   <version>1.0.0</version>
   <name>ling-rpc Maven Webapp</name>

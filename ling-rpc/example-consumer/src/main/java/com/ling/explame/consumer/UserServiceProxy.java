@@ -4,10 +4,10 @@ import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import com.ling.explame.common.moder.User;
 import com.ling.explame.common.service.UserService;
-import com.ling.lingrpc.model.RpcRequest;
-import com.ling.lingrpc.model.RpcResponse;
-import com.ling.lingrpc.serializer.JdkSerializer;
-import com.ling.lingrpc.serializer.Serializer;
+import lingrpccore.model.RpcRequest;
+import lingrpccore.model.RpcResponse;
+import lingrpccore.serializer.JdkSerializer;
+import lingrpccore.serializer.Serializer;
 
 import java.io.IOException;
 

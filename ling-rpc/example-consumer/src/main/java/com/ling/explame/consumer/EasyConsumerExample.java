@@ -3,7 +3,7 @@ package com.ling.explame.consumer;
 
 import com.ling.explame.common.moder.User;
 import com.ling.explame.common.service.UserService;
-import com.ling.lingrpc.proxy.ServiceProxyFactory;
+import lingrpccore.proxy.ServiceProxyFactory;
 
 /**
  * 简易服务消费者示例

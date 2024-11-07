@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.ling</groupId>
-            <artifactId>ling-rpc-easy</artifactId>
+            <artifactId>ling-rpc-core</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
