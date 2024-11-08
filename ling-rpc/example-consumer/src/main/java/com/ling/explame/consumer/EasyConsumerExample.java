@@ -3,7 +3,7 @@ package com.ling.explame.consumer;
 
 import com.ling.explame.common.moder.User;
 import com.ling.explame.common.service.UserService;
-import lingrpccore.proxy.ServiceProxyFactory;
+import com.ling.lingrpccore.proxy.ServiceProxyFactory;
 
 /**
  * 简易服务消费者示例
@@ -23,5 +23,7 @@ public class EasyConsumerExample {
         } else {
             System.out.println("user == null");
         }
+        long number = userService.getNumber();
+        System.out.println(number);
     }
 }

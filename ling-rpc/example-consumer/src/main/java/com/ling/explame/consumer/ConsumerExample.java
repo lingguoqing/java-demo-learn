@@ -1,7 +1,7 @@
 package com.ling.explame.consumer;
 
-import lingrpccore.config.RpcConfig;
-import lingrpccore.utils.ConfigUtils;
+import com.ling.lingrpccore.config.RpcConfig;
+import com.ling.lingrpccore.utils.ConfigUtils;
 
 /**
  * 简易服务消费者示例

@@ -1,0 +1,2 @@
+a=com.ling.lingrpccore.serializer.JdkSerializer
+b=com.ling.lingrpccore.serializer.HessianSerializer

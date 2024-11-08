@@ -1,6 +1,5 @@
 package com.ling.explame.common.service;
 
-
 import com.ling.explame.common.moder.User;
 
 /**
@@ -15,4 +14,11 @@ public interface UserService {
      * @return
      */
     User getUser(User user);
+
+    /**
+     * 新方法 - 获取数字
+     */
+    default short getNumber() {
+        return 1;
+    }
 }

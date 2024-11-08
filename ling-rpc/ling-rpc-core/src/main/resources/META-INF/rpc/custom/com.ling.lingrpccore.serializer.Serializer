@@ -1,0 +1,2 @@
+c=com.ling.lingrpccore.serializer.JsonSerializer
+d=com.ling.lingrpccore.serializer.KryoSerializer
